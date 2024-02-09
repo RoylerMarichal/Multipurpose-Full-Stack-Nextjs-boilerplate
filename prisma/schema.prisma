@@ -425,6 +425,8 @@ model SupportTicketMessageContent {
   @@index([messageId])
 }
 
+//Car rental 
+
 enum SupportDepartamentType {
   BILLING
   SALES
