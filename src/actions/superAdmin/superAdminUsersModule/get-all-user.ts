@@ -42,7 +42,6 @@ export const getAllUser = async ({
           },
         },
       },
-      ServiceActive: true,
     },
     orderBy: {
       createdAt: "desc",

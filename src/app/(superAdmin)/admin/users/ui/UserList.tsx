@@ -3,8 +3,7 @@ import NotFound from "@/components/layouts/errors/NotFound";
 import Pagination from "@/components/ui/commons/Pagination";
 import OperateUser from "./OperateUser";
 import UserCard from "@/components/ui/commons/UserCard";
-import { ServiceActive } from "@prisma/client";
-
+ 
 const UserList = async ({
   query,
   currentPage,
@@ -79,11 +78,7 @@ const UserList = async ({
                         </td>
                         <td className="whitespace-nowrap px-3 py-5 text-sm text-gray-500">
                           <div className="mt-1 text-gray-500 flex flex-col">
-                            {person.ServiceActive.map(
-                              (serviceActive: ServiceActive) => {
-                                <div>ID: {serviceActive.id} </div>;
-                              }
-                            )}
+                            
                           </div>
                         </td>
 

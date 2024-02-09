@@ -1,4 +1,4 @@
-import { Invoice, InvoiceItem, InvoiceStatus } from "@prisma/client";
+import { Invoice, InvoiceItem } from "@prisma/client";
 import prisma from "@/lib/db";
 import { createMovementAmountForUser } from "@/actions/admin/walletModule/create-amount-movement";
 import { getSuperAdminSetting } from "./adminFacade";
@@ -18,25 +18,11 @@ export const payToAffiliate = async (
     },
     include: {
       coupons: true,
-      serviceActive: {
-        include: {
-          Invoice: {
-            where: {
-              status: InvoiceStatus.PAID,
-            },
-          },
-        },
-      },
     },
   });
 
   if (invoiceFull?.coupons?.length) return;
-  if (
-    invoiceFull?.serviceActive?.Invoice?.length &&
-    invoiceFull?.serviceActive?.Invoice?.length > 0
-  )
-    return; //This services is not the first payment
-
+ 
   const userToPay = await prisma.referral.findFirst({
     where: {
       referId: invoice.userId,

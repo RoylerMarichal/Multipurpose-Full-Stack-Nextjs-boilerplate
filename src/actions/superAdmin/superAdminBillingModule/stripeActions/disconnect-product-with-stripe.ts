@@ -1,33 +1,15 @@
 "use server";
 
 import prisma from "@/lib/db";
-import { Plan, Service } from "@prisma/client";
+import { Plan } from "@prisma/client";
 import { revalidatePath } from "next/cache";
 
 export const disconnectProductWithStripe = async (
   modelName: string,
   modelId: number
 ) => {
-  let model: Service | Plan | null = null;
-
-  if (modelName === "Service") {
-    model = await prisma.service.findUnique({
-      where: {
-        id: modelId,
-      },
-    });
-
-    if (!model) throw new Error("Model not found");
-
-    await prisma.service.update({
-      where: {
-        id: modelId,
-      },
-      data: {
-        stripeProductId: null,
-      },
-    });
-  } else if (modelName === "Plan") {
+  let model:   | Plan | null = null;
+  if (modelName === "Plan") {
     model = await prisma.plan.findUnique({
       where: {
         id: modelId,

@@ -17,10 +17,7 @@ import {
   InvoiceItem,
 } from "@prisma/client";
 import { parsePriceInLocalCurrency } from "../frontendFacades/parseValuesFacade";
-import {
-  serviceActivePaid,
-  serviceDomainPaid,
-} from "../modulesFacades/serviceFacade";
+ 
 import { getMonthCountByFrecuency } from "../modulesFacades/billingFacade";
 import { payToAffiliate } from "./affiliatesSystemFacade";
 
@@ -241,28 +238,7 @@ export const processInvoiceItemInPayment = async (
 
     ////////////////////////////////////////////////////// CASHBACK
     return await planPaid(plan, invoice, pricing);
-  } else if (invoiceItem.modelType === "SERVICE_ACTIVE") {
-    if (!pricing) return;
-    const serviceActive = await prisma.serviceActive.findUnique({
-      where: {
-        id: invoiceItem.modelId ? invoiceItem.modelId : 0,
-      },
-    });
-
-    if (!serviceActive) throw new Error("Service active not found");
-    ////////////////////////////////////////////////////// CASHBACK
-    return await serviceActivePaid(serviceActive, pricing, invoice);
-  } else if (invoiceItem.modelType === "DOMAIN") {
-    const domainServiceActive = await prisma.serviceActive.findUnique({
-      where: {
-        id: invoiceItem.modelId ? invoiceItem.modelId : 0,
-      },
-    });
-
-    if (!domainServiceActive) throw new Error("Domain not found");
-    ////////////////////////////////////////////////////// CASHBACK
-    return await serviceDomainPaid(domainServiceActive, invoice, invoiceItem);
-  }
+  } 
 };
 
 export const calculateInvoiceTotal = (

@@ -7,7 +7,6 @@ import { PencilIcon } from "@heroicons/react/24/outline";
 import DeleteModel from "@/components/core/DeleteModel";
 import { deletePlan } from "@/actions/superAdmin/superAdminBillingModule/delete-plan";
 import { getPriceRange } from "@/utils/facades/modulesFacades/billingFacade";
-import ManageStripeProductConection from "@/app/(superAdmin)/admin/services/ui/ServiceStripeConection";
 
 const BillingPlansList = async () => {
   const { data } = await getAllPlans();
@@ -82,12 +81,7 @@ const BillingPlansList = async () => {
                               : "No prices yet"}
                           </td>
                           <td className="whitespace-nowrap px-3 py-5 text-sm  ">
-                            <ManageStripeProductConection
-                              modelId={plan.id}
-                              modelName="service"
-                              modelType="Plan"
-                              stripeProductId={plan.stripeProductId}
-                            />
+                            
                           </td>
                           <td className="whitespace-nowrap px-3 py-5 text-sm  ">
                             {plan.PlanCapabilities?.length}

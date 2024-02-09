@@ -547,16 +547,6 @@ enum frequencyType {
   LIFETIME
 }
 
-enum ServiceActiveStatus {
-  ACTIVE
-  INACTIVE
-  IN_PROGRESS
-  DELETED
-  PENDING
-  COMPLETED
-  DRAFT
-}
-
 enum ServiceType {
   HOSTING
   VPS
