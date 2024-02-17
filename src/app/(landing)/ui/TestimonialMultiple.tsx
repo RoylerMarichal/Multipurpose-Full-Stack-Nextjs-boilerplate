@@ -2,6 +2,7 @@ import { classNames } from "@/utils/facades/serverFacades/strFacade";
 import Image from "next/image";
 import { Key } from "react";
 
+
 export const featuredTestimonial = {
   body: "Este servicio de hosting hizo que compartir mis recetas sea más fácil que nunca. La velocidad y estabilidad son impresionantes, y el equipo de soporte siempre está dispuesto a ayudar. ¡Una elección perfecta para cualquier amante de la cocina que desee tener un blog!",
   author: {
@@ -9,6 +10,7 @@ export const featuredTestimonial = {
     handle: "Entusiasta de la Cocina",
   },
 };
+
 export const testimonials: any[] = [
   [
     [

@@ -1,6 +1,6 @@
 "use client";
 import { constants } from "@/lib/constants";
-import { SignedIn, SignedOut,   useUser } from "@clerk/nextjs";
+import { SignedIn, SignedOut, useUser } from "@clerk/nextjs";
 import { Dialog } from "@headlessui/react";
 import {
   Bars3Icon,
@@ -12,10 +12,9 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navigation = [
-  { name: "Para agencias", href: "/#agencies" },
-  { name: "Precios ", href: "/#prices" },
-  // { name: "Gana con nosotros ", href: "/#affiliates" },
-  { name: "WordPress  ", href: "/#wordpress" },
+  { name: "Link 1 ", href: "/#" },
+  { name: "Link 2 ", href: "/#" },
+  { name: "Link 3  ", href: "/#" },
 ];
 
 export const HeaderLanding = () => {
@@ -63,7 +62,6 @@ export const HeaderLanding = () => {
           </div>
           <div className="lg:ml-32">
             <SignedIn>
-              {/* Mount the UserButton component */}
               <div className="ml-32">
                 <Link href="/home">
                   {user?.imageUrl && (

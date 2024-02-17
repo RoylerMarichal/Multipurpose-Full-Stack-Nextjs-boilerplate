@@ -1,15 +1,5 @@
-// import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import BtnBuyService from "./BtnBuyService";
-
-// const benefits = [
-//   "Precios según tu proyecto",
-//   "Soporte especializado",
-//   "Consultoría de negocios",
-//   "Desarrollo a la medida",
-//   "Metodología ágil",
-//   "Garantía de satisfacción",
-// ];
 
 export default function CTAMain() {
   return (
@@ -27,31 +17,12 @@ export default function CTAMain() {
               />
               <div className="w-full flex-auto">
                 <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
-                  Tú, no solo datos: Atención Personalizada, Uno a Uno
+                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime velit, explicabo facilis rerum quibusdam nulla quos libero. 
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-primary">
-                  Descubre una experiencia única en hosting donde no solo se
-                  trata de datos, sino de un servicio personalizado, diseñado
-                  exclusivamente para ti. Nuestra atención uno a uno te brinda
-                  el respaldo y la dedicación que mereces en cada paso de tu
-                  viaje en línea. ¡Bienvenido a una conexión más allá de los
-                  números, donde tu presencia importa y se cuida con atención
-                  personalizada!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolorem temporibus autem, veniam in odit neque illo totam doloremque laborum dolor eveniet aliquid inventore? Quasi cupiditate molestias perferendis velit vitae.
                 </p>
-                {/* <ul
-                  role="list"
-                  className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base leading-7 text-white sm:grid-cols-2"
-                > */}
-                {/* {benefits.map((benefit) => (
-                    <li key={benefit} className="flex gap-x-3">
-                      <CheckCircleIcon
-                        className="h-7 w-5 flex-none"
-                        aria-hidden="true"
-                      />
-                      {benefit}
-                    </li>
-                  ))} */}
-                {/* </ul> */}
+               
                 <div className="mt-10 flex space-x-3">
                   <BtnBuyService />
                 </div>
