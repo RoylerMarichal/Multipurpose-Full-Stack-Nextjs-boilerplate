@@ -6,7 +6,7 @@ import {
   KpiGrowthType,
   KpiStatType,
   KpiType,
-} from "@/actions/superAdmin/superAdminDashboardModule/dashboardTypes";
+} from "@/interfaces/dashboardTypes";
 import { getSuperAdminKpis } from "@/actions/superAdmin/superAdminDashboardModule/get-superadmin-kpis";
  
  
