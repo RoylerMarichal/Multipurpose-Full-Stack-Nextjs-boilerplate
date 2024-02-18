@@ -5,8 +5,8 @@ import FooterLanding from "./ui/FooterLanding";
 import FloatingWhatsAppButton from "@/components/core/FloatingWhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "The Hosting Clan ",
-  description: "The Hosting Clan",
+  title: "Boilerplate in Next",
+  description: "Boilerplate in Next",
 };
 
 export default function RootLayout({

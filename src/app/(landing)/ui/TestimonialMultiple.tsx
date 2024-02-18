@@ -2,12 +2,11 @@ import { classNames } from "@/utils/facades/serverFacades/strFacade";
 import Image from "next/image";
 import { Key } from "react";
 
-
 export const featuredTestimonial = {
-  body: "Este servicio de hosting hizo que compartir mis recetas sea más fácil que nunca. La velocidad y estabilidad son impresionantes, y el equipo de soporte siempre está dispuesto a ayudar. ¡Una elección perfecta para cualquier amante de la cocina que desee tener un blog!",
+  body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam id praesentium mollitia, iusto libero quos alias expedita sit recusandae nulla quis consequatur facilis dolorem distinctio numquam accusantium unde quidem.",
   author: {
     name: "Laura G.",
-    handle: "Entusiasta de la Cocina",
+    handle: "SEO Specialist",
   },
 };
 
@@ -15,10 +14,10 @@ export const testimonials: any[] = [
   [
     [
       {
-        body: "Desde que cambié a este servicio de hosting, mi sitio web nunca ha estado tan rápido y confiable. La atención personalizada es un gran plus, siempre me siento respaldada.",
+        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam id praesentium mollitia, iusto libero quos alias expedita sit recusandae nulla quis consequatur facilis dolorem distinctio numquam accusantium unde quidem.",
         author: {
           name: "Fernanda V.   ",
-          handle: "Emprendedora Online",
+          handle: "CTO at Gooogle",
         },
         icon: (
           <Image
@@ -33,10 +32,10 @@ export const testimonials: any[] = [
     ],
     [
       {
-        body: "Realmente lo que más me impresionó fue que pude hacer el pago desde Cuba   y en CUP de manera sencilla Excelente!",
+        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam id praesentium mollitia, iusto libero quos alias expedita sit recusandae nulla quis consequatur facilis dolorem distinctio numquam accusantium unde quidem.",
         author: {
-          name: "Pablo R",
-          handle: "Proprietário de Blog",
+          name: "Fernanda V.   ",
+          handle: "CTO at Gooogle",
         },
         icon: (
           <Image
@@ -53,14 +52,14 @@ export const testimonials: any[] = [
   [
     [
       {
-        body: "Mi tienda en línea ha experimentado un aumento notable en las ventas desde que opté por este hosting. La interfaz es amigable, y la asistencia técnica siempre está lista para ayudar. ¡Muy satisfecha con los resultados y el impacto en mi negocio!.",
+        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam id praesentium mollitia, iusto libero quos alias expedita sit recusandae nulla quis consequatur facilis dolorem distinctio numquam accusantium unde quidem.",
         author: {
-          name: "Lucía M. ",
-          handle: " Tienda Online de Artesanías",
+          name: "Fernanda V.   ",
+          handle: "CTO at Gooogle",
         },
         icon: (
           <Image
-            src={"/assets/img/spain-flag.png"}
+            src={"/assets/img/cuban-flag.jpg"}
             alt="Cuban Flag"
             width={20}
             height={20}
@@ -71,17 +70,17 @@ export const testimonials: any[] = [
     ],
     [
       {
-        body: "Como fotógrafo aficionado, la presentación visual de mi sitio es crucial. Este hosting ha mejorado significativamente la velocidad de carga de mis imágenes. La atención al cliente es excepcional, ¡definitivamente recomendado para cualquier amante de la fotografía!",
+        body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam id praesentium mollitia, iusto libero quos alias expedita sit recusandae nulla quis consequatur facilis dolorem distinctio numquam accusantium unde quidem.",
         author: {
-          name: "Javier L. ",
-          handle: " Aficionado a la Fotografía",
+          name: "Fernanda V.   ",
+          handle: "CTO at Gooogle",
         },
         icon: (
           <Image
-            src={"/assets/img/usa-flag.jpg"}
+            src={"/assets/img/cuban-flag.jpg"}
             alt="Cuban Flag"
-            width={30}
-            height={30}
+            width={20}
+            height={20}
             className="inline"
           />
         ),

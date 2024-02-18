@@ -89,7 +89,7 @@ const SuperAdminSidebar = () => {
                         width={145}
                         className="w-1/2 h-auto  "
                         src="/assets/img/logoh.png"
-                        alt="Hosting Clan"
+                        alt="Boilerplate"
                       />
                     </Link>
                   </div>
@@ -152,7 +152,7 @@ const SuperAdminSidebar = () => {
           <Link href={"/"}>
             {" "}
             <span className="text-xl font-bold text-primary">
-              Hosting Clan Admin
+             Boilerplate Admin
             </span>
           </Link>
         </div>

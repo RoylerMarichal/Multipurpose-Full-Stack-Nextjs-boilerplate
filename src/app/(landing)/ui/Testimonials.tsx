@@ -16,14 +16,10 @@ export default function Testimonials() {
             <figure className="mt-10 flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-primary">
                 <p>
-                  “Mi experiencia con The Hosting Clan, ha sido excepcional en
-                  todos los aspectos. Desde el rendimiento rápido y el uptime
-                  impecable hasta la interfaz intuitiva y la seguridad robusta,
-                  The Hosting Clan ha superado mis expectativas. Su servicio al
-                  cliente es destacable, siempre dispuestos a resolver cualquier
-                  consulta de manera eficiente. En cuanto a los resultados de
-                  SEO obtenidos para nuestros clientes 100% de efectividad.
-                  Agradecido de trabajar junto a ustedes 🤙”
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Suscipit, voluptatibus possimus. Commodi dolores modi,
+                  molestias repellat enim quo ducimus, hic quaerat nostrum
+                  ratione est facere consequatur velit quidem vero accusantium!
                 </p>
               </blockquote>
               <div className="flex gap-x-1 text-yellow-500 mt-4">
@@ -42,8 +38,8 @@ export default function Testimonials() {
                   height={77}
                 />
                 <div className="text-base">
-                  <div className="font-semibold text-primary">Yadiel</div>
-                  <div className="mt-1 text-gray-500">CEO de HICSEO</div>
+                  <div className="font-semibold text-primary">John</div>
+                  <div className="mt-1 text-gray-500">CEO at GR7 </div>
                 </div>
               </figcaption>
             </figure>
@@ -59,16 +55,13 @@ export default function Testimonials() {
             <figure className="mt-10 flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-primary">
                 <p>
-                  “Todos nuestros clientes que necesitan sitios webs
-                  corporativos o basados en Wordpress los hospedamos con Hosting
-                  Clan. No solamente la velocidad es increíble, sino que el
-                  tiempo de respuesta del soporte directamente por WhatsApp es
-                  casi instantaneo. Recomiendo 100% Hosting Clan para cualqueir
-                  tipo de empresas o proyectos de emprendedores y
-                  desarrolladores individuales ”
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                  quibusdam similique ipsum totam, repellendus facere asperiores
+                  quos perspiciatis? Mollitia, est nostrum ut architecto quas
+                  labore repellat corporis. Atque, facilis sit!
                 </p>
               </blockquote>
-              
+
               <div className="flex gap-x-1 text-yellow-500 mt-1">
                 <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
                 <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
@@ -85,10 +78,8 @@ export default function Testimonials() {
                   height={77}
                 />
                 <div className="text-base">
-                  <div className="font-semibold text-primary">
-                    Royler Marichal Carrazana
-                  </div>
-                  <div className="mt-1 text-gray-500">CEO de C luz Studio</div>
+                  <div className="font-semibold text-primary">Carlos Luz</div>
+                  <div className="mt-1 text-gray-500">CEO at iHUb</div>
                 </div>
               </figcaption>
             </figure>

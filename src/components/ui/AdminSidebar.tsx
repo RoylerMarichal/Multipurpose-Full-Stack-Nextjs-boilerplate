@@ -92,7 +92,7 @@ const AdminSidebar = () => {
                         width={145}
                         className="w-1/2 h-auto  "
                         src="/assets/img/logoh.png"
-                        alt="Hosting Clan"
+                        alt="Boilerplate"
                       />
                     </Link>
                   </div>
@@ -175,7 +175,7 @@ const AdminSidebar = () => {
                 height={145}
                 className="h-auto pt-1 w-1/2"
                 src="/assets/img/logo.png"
-                alt="Hosting Clan"
+                alt="Boilerplate"
               />
             </Link>
           </div>

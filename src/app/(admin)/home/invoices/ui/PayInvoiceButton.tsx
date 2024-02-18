@@ -27,7 +27,7 @@ const PayInvoiceButton = ({
     if (paymentMethod.name === "QvaPay") {
       payWithQvapay('INVOICE',invoice.id);
     }
-    if (paymentMethod.name === "Hosting Clan Wallet") {
+    if (paymentMethod.name === "Wallet") {
       payWithWallet('INVOICE',invoice.id);
     }
   };

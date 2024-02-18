@@ -333,7 +333,7 @@ export function SelectPaymentMethod({
     if (paymentMethod.name === "QvaPay") {
       payWithQvapay("PLAN", pricingSelected.id);
     }
-    if (paymentMethod.name === "Hosting Clan Wallet") {
+    if (paymentMethod.name === "Wallet") {
       payWithWallet("PLAN", pricingSelected.id);
     }
   };

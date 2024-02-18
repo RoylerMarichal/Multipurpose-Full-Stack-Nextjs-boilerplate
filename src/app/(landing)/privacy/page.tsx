@@ -11,7 +11,7 @@ const PolicyPrivacy = () => {
       <div className="  bg-white mx-auto  ">
         <div className="flex flex-col space-y-3 mx-auto py-24 max-w-7xl">
           <header>
-            <h1 className="mega-title">Privacy Policy for Hosting Clan</h1>
+            <h1 className="mega-title">Privacy Policy for Boilerplate in Next</h1>
             <p>Last updated: 20-1-2024</p>
           </header>
 

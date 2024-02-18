@@ -1,8 +1,8 @@
 export const constants = {
   appUrl: "https://hostingclan.com",
-  appName: "The Hosting Clan",
+  appName: "Boilerplate",
   logoUrl: "/assets/img/logowhite.png",
-  appResume: "El mejor hosting para Latam.",
+  appResume: "The best boilerplate in next 14.",
 };
 
 export const sliderSettings = {

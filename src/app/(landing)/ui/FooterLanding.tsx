@@ -240,7 +240,7 @@ export default function FooterLanding() {
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
           <div className="flex flex-col lg:flex-row justify-between">
             <p className="text-xs leading-5 text-gray-400">
-              &copy; {new Date().getFullYear()} The Hosting Clan, Inc. All
+              &copy; {new Date().getFullYear()} The Boilerplate, Inc. All
               rights reserved.
             </p>
             <div className="text-xs flex space-x-3 items-center leading-5 text-gray-400">
@@ -249,13 +249,6 @@ export default function FooterLanding() {
                 src={"/assets/img/stripeCards.png"}
                 alt="Cuban Flag"
                 width={177}
-                height={30}
-                className="inline"
-              />
-              <Image
-                src={"/assets/img/qvapay.png"}
-                alt="Qvapay Flag"
-                width={50}
                 height={30}
                 className="inline"
               />

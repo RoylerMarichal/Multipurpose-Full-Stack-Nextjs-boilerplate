@@ -26,22 +26,24 @@ const FloatingWhatsAppButton = () => {
 
       switch (country) {
         case "CU":
-          return "+59892907594";
+          return "+5541999568376";
         case "BR":
-          return "+59892907594";
+          return "+5541999568376";
         default:
-          return "+59892907594";
+          return "+5541999568376";
       }
-    }else {
-      return "+59892907594";
+    } else {
+      return "+5541999568376";
     }
   };
 
   return (
     <div>
       <FloatingWhatsApp
-        phoneNumber={typeof window !== "undefined" ? getPhoneNumber() : "59892907594"}
-        accountName="The Hosting Clan Support"
+        phoneNumber={
+          typeof window !== "undefined" ? getPhoneNumber() : "5541999568376"
+        }
+        accountName="The Boilerplate Support"
         avatar="https://hostingclan.com/assets/img/logowhite.png"
         darkMode={false}
         allowEsc
